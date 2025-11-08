@@ -1,6 +1,10 @@
 ('C:\\Users\\admin\\Documents\\Visual Studio 2022\\Projects '
  'py\\build\\fps_cursor_overlay\\PYZ-00.pyz',
- [('_compat_pickle',
+ [('PyQt6',
+   'C:\\Users\\admin\\Documents\\Visual Studio 2022\\Projects '
+   'py\\venv\\Lib\\site-packages\\PyQt6\\__init__.py',
+   'PYMODULE'),
+  ('_compat_pickle',
    'C:\\Users\\admin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\_compat_pickle.py',
    'PYMODULE'),
   ('_compression',
@@ -14,6 +18,14 @@
    'PYMODULE'),
   ('_pydecimal',
    'C:\\Users\\admin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\_pydecimal.py',
+   'PYMODULE'),
+  ('_pyi_rth_utils',
+   'C:\\Users\\admin\\Documents\\Visual Studio 2022\\Projects '
+   'py\\venv\\Lib\\site-packages\\PyInstaller\\fake-modules\\_pyi_rth_utils\\__init__.py',
+   'PYMODULE'),
+  ('_pyi_rth_utils.qt',
+   'C:\\Users\\admin\\Documents\\Visual Studio 2022\\Projects '
+   'py\\venv\\Lib\\site-packages\\PyInstaller\\fake-modules\\_pyi_rth_utils\\qt.py',
    'PYMODULE'),
   ('_strptime',
    'C:\\Users\\admin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\_strptime.py',
@@ -231,6 +243,9 @@
   ('pickle',
    'C:\\Users\\admin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\pickle.py',
    'PYMODULE'),
+  ('pkgutil',
+   'C:\\Users\\admin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\pkgutil.py',
+   'PYMODULE'),
   ('pprint',
    'C:\\Users\\admin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\pprint.py',
    'PYMODULE'),
@@ -305,4 +320,7 @@
    'PYMODULE'),
   ('zipfile._path.glob',
    'C:\\Users\\admin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\zipfile\\_path\\glob.py',
+   'PYMODULE'),
+  ('zipimport',
+   'C:\\Users\\admin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\zipimport.py',
    'PYMODULE')])
