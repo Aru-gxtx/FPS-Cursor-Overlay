@@ -32,7 +32,7 @@ This is the easiest way to get started. It requires no installation or technical
 
 1.  Go to the [**Releases Page**](https://github.com/Aru-gxtx/FPS-Cursor-Overlay/releases).
 2.  Under the latest release, find the **Assets** section.
-3.  Download the `fps_cursor_overlay.exe` file.
+3.  Download the `fps_cursor_overlay.exe` file with your preferred compatible version.
 4.  Run the file.
 
 ### 2. For Developers (Running from Source)
