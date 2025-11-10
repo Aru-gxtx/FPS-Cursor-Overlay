@@ -60,7 +60,7 @@ Use this method if you want to run the Python script directly or modify the code
 
 1.  **Customize Your Crosshair**
     
-    Replace the default `overlay.png` file in the root directory with your desired `.png` image. For best results, use an image with a transparent background. The script will automatically scale the image down to 5% of its original size upon launch. Image size of around 480p (e.g., 640x480) is recommended for the best results.
+    Replace the default `overlay.png` file in the root directory with your desired `.png` image. For best results, use an image with a transparent background. The script will automatically scale the image down to 5% of its original size upon launch. Image size of around 480p (e.g., 360x480) is recommended for the best results.
 
 2.  **Run the Script**
     
