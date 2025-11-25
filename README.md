@@ -1,15 +1,19 @@
 # FPS-Cursor-Overlay
+
+![Application Demo](cursor_demo.gif)
+
 This project provides a simple, free, and open-source solution for displaying a custom image as a static crosshair overlay in your favorite FPS games. If you've ever wanted to improve your aim accuracy by using a unique image for your crosshair but found dedicated applications to be paid (such as [Cursor Engine](https://store.steampowered.com/app/2201210/Cursor_Engine) sold on Steam), this Python script is the perfect alternative.
 
 The script creates a small, click-through window that stays on top of all other applications, including full-screen games. It centers a custom `.png` image on your screen, effectively acting as a permanent crosshair to aid in aiming.
 
 ## Features
 
-*   **Custom Image Overlay:** Use any `.png` image as your crosshair.
-*   **Always on Top:** The overlay remains visible over full-screen applications and games.
-*   **Click-Through:** The overlay does not interfere with mouse clicks or game input.
-*   **Automatic Resizing:** Automatically scales your image to an appropriate size for an overlay.
-*   **Lightweight:** Built with Python and PyQt6, ensuring minimal performance impact.
+* **Custom Image Overlay:** Use any `.png` image as your crosshair.
+* **Always on Top:** The overlay remains visible over full-screen applications and games.
+* **Click-Through:** The overlay does not interfere with mouse clicks or game input.
+* **Automatic Resizing:** Automatically scales your image to an appropriate size for an overlay.
+* **Killswitch:** Press **F10** to instantly close the application.
+* **Lightweight:** Built with Python and PyQt6, ensuring minimal performance impact.
 
 ## How It Works
 
@@ -19,8 +23,8 @@ The script uses the `PyQt6` library to create a transparent, frameless window. T
 
 ### Prerequisites
 
-*   Python 3.x.x
-*   pip
+* Python 3.x.x
+* pip
 
 ### Installation
 
@@ -60,12 +64,17 @@ Use this method if you want to run the Python script directly or modify the code
 
 1.  **Customize Your Crosshair**
     
-    Replace the default `overlay.png` file in the root directory with your desired `.png` image. For best results, use an image with a transparent background. The script will automatically scale the image down to 50% of its original size upon launch. Image size of around Windows cursor size (e.g., 64x64) is recommended for the best results.
+    Replace the default `overlay.png` file in the root directory with your desired `.png` image. For best results, use an image with a transparent background. Image size of around Windows cursor size (e.g., 64x64) is recommended for the best results.
 
 2.  **Run the Script**
     
-    Execute the Python script from your terminal:
+    Execute the Python script from your terminal (or run the executable):
     ```bash
     python fps_cursor_overlay.py
     ```
-    The overlay will appear in the center of your primary monitor. To close it, stop the script by pressing `Ctrl+C` in the terminal where it is running or clowing the overlay window.
+    The overlay will appear in the center of your primary monitor.
+
+3.  **Closing the Overlay**
+    
+    * **Killswitch:** Press **F10** on your keyboard to instantly close the overlay.
+    * **Manual:** You can also stop the script by pressing `Ctrl+C` in the terminal where it is running.
