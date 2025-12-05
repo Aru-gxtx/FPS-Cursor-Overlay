@@ -152,8 +152,8 @@ def main():
 
     original_width = pixmap.width()
     original_height = pixmap.height()
-    new_width = int(original_width * 0.5)
-    new_height = int(original_height * 0.5)
+    new_width = int(original_width * 0.25)
+    new_height = int(original_height * 0.25)
     
     pixmap = pixmap.scaled(
         new_width, new_height,
