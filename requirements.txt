@@ -1,6 +1,5 @@
 pillow
 pynput
 tkinter-tooltip
-Nuitka
 mouse
 pyinstaller
