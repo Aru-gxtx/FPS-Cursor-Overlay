@@ -1,5 +1,7 @@
 # cursorrg
 
+[![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)]()  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)  [![Release](https://img.shields.io/badge/Release-Latest-blue)](release)
+
 Previously named "FPS Cursor Overlay", was changed because the URL for this was too long and difficult to type. cursorrg is a tool that allows you to overlay an image onto the screen, displaying it as a crosshair.
 
 ## Demo
