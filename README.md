@@ -10,7 +10,7 @@ Previously named "FPS Cursor Overlay", was changed because the URL for this was 
 
 ## Installation Instructions
 
-1. Download the latest `.zip` file in the [release]() section.
+1. Download the latest `.zip` file in the [release](https://github.com/Aru-gxtx/cursorrg/releases) section.
 2. Unzip and run `run.exe`.
 3. Select an existing cursor or add a new one.
 4. Start the cursor with "Run cursor" and close it with "Close cursor".
